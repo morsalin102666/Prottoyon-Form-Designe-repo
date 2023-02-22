@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prottoyon Pottro</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css file link -->
+    <link rel="stylesheet" href="prottoyon.css">
 </head>
+
 <body>
-    
+    <!-- =============== Header Section ==================== -->
+    <header>
+        <nav class="bg-gray-300 mx-4 md:mx-24 mt-9 rounded-md py-4 px-10">
+            <div class="md:flex justify-between items-center">
+                <div>
+                    <h1 class="text-4xl font-bold text-blue-900">My Make a Prottoyon</h1>
+                    <h3 class="text-2xl font-bold text-blue-700 mt-4">Md Morsalin Islam</h3>
+                </div>
+                <div>
+                    <button class="bg-blue-600 py-1 px-3 mt-4 md:mt-0 text-lg text-white rounded-md font-semibold"
+                        id="home-button">Home</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- =============== Header Section ==================== -->
+    <main>
+        <section class="mt-14 w-[92%] md:w-[70%] mx-auto">
+            <div class="bg-gray-200 p-[20px] md:p-[50px]">
+                <div class="border-4 border-black rounded py-[45px]">
+                    <div class="flex justify-between items-center px-[10px] md:px-[80px]">
+                        <p class="text-[8px] md:text-[16px]">বহি নং :</p>
+                        <p class="text-[8px] mr-[10px] md:mr-0 md:text-[16px]">ক্রমিক নং :</p>
+                    </div>
+                    <div class="flex justify-between items-center mb-[25px] md:mb-[50px]">
+                        <img src="images/collage-logho-removebg-preview.png" class="w-[40px] md:w-[220px]"
+                            alt="Collage-logho">
+                        <div class="text-center">
+                            <span class="text-[10px] md:text-[16px]">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</span>
+                            <p class="text-[11px] md:text-[25px]">অধ্যক্ষের কার্যালয়</p>
+                            <h2 class="text-[14px] md:text-[34px] font-medium">দিনাজপুর পলিটেকনিক ইনস্টিটিউট</h2>
+                            <h3 class="text-[13px] md:text-[30px] font-medium">অধ্যয়নরত প্রত্যয়ন পত্র</h3>
+                        </div>
+                        <img src="images/logho.png" class="mr-[10px] ml-[8px] md:ml-[0px] md:mr-12 w-[30px] md:w-[157px]" alt="logho">
+                    </div>
+                    <div class="px-[30px] md:px-[100px]">
+                        <div class="flex">
+                            <p class="text-[6px] md:text-[20px] w-[40%] md:w-[35%]">এই মর্মে প্রত্যয়ন করা যাইতেছে যে </p>
+                            <p class="text-[6px] md:text-[20px] w-[60%] md:w-[65%] border-under "><span class="pl-[10px] md:pl-[100px]">মোঃ মোরছালিন
+                                    ইসলাম</span></p>
+                        </div>
+                        <div class="flex justify-center items-center gap-[4%] md:gap-[4%] mt-5 md:mt-10">
+                            <div class="w-[48%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[20%]">পিতা ঃ</p>
+                                <p class="text-[6px] md:text-[20px] w-[80%] border-under "><span class="pl-[10px] md:pl-[50px]">মোঃ মাজেদুল ইসলাম</span></p>
+                            </div>
+                            <div class="w-[48%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[20%]">মাতা ঃ </p>
+                                <p class="text-[6px] md:text-[20px] w-[80%] border-under "><span class="pl-[10px] md:pl-[50px]">মোছাঃ মোসলেমা বেগম</span></p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center gap-[4%] md:gap-[4%] mt-5 md:mt-10">
+                            <div class="w-[30%] md:w-[33%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[55%]">ক্লাস রোল নং</p>
+                                <p class="text-[6px] md:text-[20px] w-[45%] border-under "><span class="pl-[5px] md:pl-[50px]">46521</span></p>
+                            </div>
+                            <div class="w-[30%] md:w-[33%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[55%]">বোর্ড রোল নং</p>
+                                <p class="text-[6px] md:text-[20px] w-[45%] border-under "><span class="pl-[5px] md:pl-[50px]">102666</span></p>
+                            </div>
+                            <p class="text-[6px] md:text-[20px] w-[38%] md:w-[34%]">ডিপ্লমা ইন ইঞ্জিনিয়ারিং শিক্ষাক্রমের</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-[4%] md:gap-[4%] mt-5 md:mt-10">
+                            <div class="w-[20%] md:w-[22%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[25%] md:w-[30%]">পর্ব</p>
+                                <p class="text-[6px] md:text-[20px] w-[75%] md:w-[70%] border-under "><span class="pl-[5px] md:pl-[50px]">৮ম</span></p>
+                            </div>
+                            <div class="w-[20%] md:w-[22%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[40%] md:w-[30%]">শিফট</p>
+                                <p class="text-[6px] md:text-[20px] w-[60%] md:w-[70%] border-under "><span class="pl-[5px] md:pl-[50px]">২য়</span></p>
+                            </div>
+                            <div class="w-[20%] md:w-[22%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[100%] border-under "><span class="pl-5px] md:pl-[50px]">কম্পিউটার</span></p>
+                            </div>
+                            <p class="text-[6px] md:text-[20px] w-[40%] md:w-[34%]">টেকনোলজিতে অধ্যয়ন করিতেছে</p>
+                        </div>
+                        <div class="mt-5 md:mt-10">
+                            <div class="w-[30%] flex items-center">
+                                <p class="text-[6px] md:text-[20px] w-[30%]">সেশন</p>
+                                <p class="text-[6px] md:text-[20px] w-[70%] border-under "><span class="pl-[5px] md:pl-[50px]">2018-19</span></p>
+                            </div>
+                        </div>
+                        <div class="mt-7 md:mt-16">
+                            <p class="text-[6px] md:text-[20px] ml-[35px] md:ml-[200px]">তাহার স্বভাব চরিত্র ভাল । আমি তাহার সর্বঙ্গীন মঙ্গল কামনা করি ।</p>
+                        </div>
+                        <div class="flex justify-between items-center mt-[180px] md:mt-[500px]">
+                            <div class="text-center">
+                                <h3 class="text-[6px] md:text-[20px] font-bold">রেজিস্টার</h3>
+                                <p class="text-[5px] md:text-[18px] mt-[8px] md:mt-[15px]">দিনাজপুর পলিটেকনিক ইনস্টিটিউট</p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-[6px] md:text-[20px] font-bold">উপাধ্যক্ষ</h3>
+                                <p class="text-[5px] md:text-[18px] mt-[8px] md:mt-[15px]">দিনাজপুর পলিটেকনিক ইনস্টিটিউট</p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-[6px] md:text-[20px] font-bold">অধ্যক্ষ</h3>
+                                <p class="text-[5px] md:text-[18px] mt-[8px] md:mt-[15px]">দিনাজপুর পলিটেকনিক ইনস্টিটিউট</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- script fill link -->
+    <script src="prottoyon.js"></script>
 </body>
+
 </html>
