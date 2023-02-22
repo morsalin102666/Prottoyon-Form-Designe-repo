@@ -6,3 +6,10 @@
 .border-under{
     border-bottom: 3px dashed ;
 }
+
+@media (min-width: 300px) and (max-width: 670px) {
+    .border-under{
+        border-bottom: 1px dashed ;
+    }
+  }
+  
